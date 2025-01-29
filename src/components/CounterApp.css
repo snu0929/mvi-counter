@@ -1,0 +1,80 @@
+.counter-container {
+    width: 40%;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+   align-items: center;
+   margin: 0 auto;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   padding: 20px;
+  }
+  .count{
+    font-size: 35px;
+  }
+  .counter-display {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .counter-button {
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .increment {
+    background: rgb(5, 187, 5);
+    color: white;
+    font-size: 25px;
+  }
+  
+  .decrement {
+    background: rgb(5, 187, 5);;
+    color: white;
+    font-size: 25px
+  }
+  
+  .reset {
+    background: rgb(219, 81, 81);
+    color: white;
+    margin-top: 10px;
+    display: block;
+    width: 90px;
+    margin: 10px auto;
+  }
+  
+  .toggle-container {
+    width: 50px;
+    height: 25px;
+    background: #ccc;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    margin: 20px auto;
+  }
+  
+  .toggle-switch {
+    width: 22px;
+    height: 22px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5px;
+    left: 2px;
+    transition: 0.3s;
+  }
+  
+  .toggle-switch.active {
+    left: 26px;
+    background: green;
+  }
+  
